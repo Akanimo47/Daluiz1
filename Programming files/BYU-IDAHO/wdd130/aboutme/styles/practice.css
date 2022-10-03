@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    color: brown;
+}
+nav {
+    background-color: rgb(172, 96, 243);
+    padding: 30px;
+}
+a {
+    color: aqua;
+    margin: 60px;
+}
+h1 {
+    color: burlywood;
+}
+img {
+    width: 800px;
+    border: 20px solid blueviolet;
+}
+p {
+    padding: 10px;
+}
+footer {
+    background-color: blueviolet;
+    color: aqua;
+}
