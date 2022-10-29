@@ -1,5 +1,8 @@
-with open("myfile.txt") as f:
+def display_numbers(x, y):
+    return 10
 
-    for line in f:
+x = 3
+y = 4
+x = display_numbers(x, y)
 
-        print(line)
+print(x)
