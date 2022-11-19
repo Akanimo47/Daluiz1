@@ -41,7 +41,9 @@ a {
 main section {
     text-align: center;
 }
-
+main section img {
+    box-sizing: border-box;
+}
 
 #background {
     height: 725px;
@@ -83,6 +85,7 @@ nav a:hover {
     background-color: #d62828;
     color: white;
 }
+
 
 #background {
     background-color: #941404;
@@ -259,7 +262,36 @@ main section img {
     width: 100%;
     box-shadow: 5px 5px 10px #003049;
 }
-
+.q2 {
+    background-color: #087E8B;
+}
+.q3 {
+    background-color: #f55e65;
+    border-radius: 10px
+}
+.q3 h2 {
+    color: #c2e0f6;
+}
+.q1 h2 {
+    color: #087E8B;
+}
+.q2 h2 {
+    padding-top: 1%;
+    color: aliceblue;
+}
+.q2 p {
+    padding-bottom: 1%;
+}
+.home-block {
+    display: block;
+    grid-template-columns: 10fr 10fr 10fr;
+}
+.home-block p {
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
 
 .card-img {
     border: 10px solid #d9c2a3;
